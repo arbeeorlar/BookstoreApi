@@ -4,6 +4,7 @@ import (
 	"net/http"
 
 	"github.com/gin-gonic/gin"
+	_ "gorm.io/driver/sqlite"
 )
 
 type album struct {
