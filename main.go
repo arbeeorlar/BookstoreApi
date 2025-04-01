@@ -19,6 +19,7 @@ var albums = []album{
 	{ID: "2", Title: "Iwo lokan", Artist: "Sowore", Price: 100.90},
 	{ID: "3", Title: "Obidient", Artist: "Obi", Price: 51.90},
 	{ID: "4", Title: "Atikulate", Artist: "Atiku", Price: 70.90},
+	{ID: "5", Title: "Adesola", Artist: "Omo-oba", Price: 70.60},
 }
 
 func getAllAbum(c *gin.Context) {
